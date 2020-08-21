@@ -1,0 +1,31 @@
+header {
+    background-image: url("../assets/joannaKosinska.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.mainNav, 
+.mainNav ul {
+    display: flex;
+    
+}
+.mainNav {
+    justify-content: space-between;
+    padding: 30px;
+    background-color:$primaryColor ;
+}
+.mainNav ul li a{
+    padding:20px;
+}
+.headerContent {
+    text-align: center;
+    margin-top: 7rem;
+}
+h1 {
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}

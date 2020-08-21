@@ -1,0 +1,47 @@
+.goBottom {
+    background-color:$primaryColor;
+    position: relative;
+    bottom: 100px;
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.aboutMe {
+    display: flex;
+}
+.aboutMePicture {
+    width: 100%;
+}
+////////////////////////////////
+.skillsSection {
+    text-align: center;
+    margin:40px 0;
+    padding: 30px 0;
+    background-color:$lightWhite;
+}
+.skillsSection ul {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:0 auto;
+    
+    li {
+        padding: 20px 50px;
+        i {
+            font-size: 5rem;
+        }
+    }
+}
+.firebaseIcon {
+    width:5rem;
+}
+///////
+.firstProject {
+    display: flex;
+}
+.computerBackground {
+    width: 40%;
+    
+}
