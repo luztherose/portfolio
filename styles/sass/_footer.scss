@@ -1,0 +1,30 @@
+.footerText{
+    background-color:$darkestWhite;
+    margin: 5rem 0 0 0;
+    padding: 5rem;
+    text-align: center;
+}
+.socialMedia {
+    ul {
+        display: flex;
+        justify-content: center;
+        li {
+            padding: 1rem;
+            i {
+                font-size: 1.8rem;
+            }
+        }
+        
+    }
+}
+.copyWrite {
+    text-align:start;
+    background-color:$primaryColor;
+    padding: 3rem;
+    position: relative;
+    bottom: 3rem;
+    .goUp {
+        text-align: center;
+        font-size: 2rem;
+    }
+}

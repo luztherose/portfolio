@@ -6,7 +6,12 @@
     text-align: center;
     font-size: 2rem;
 }
-
+// /////////////////////////////
+// .aboutSection {
+//     background-color:$lightWhite;
+//     margin:4rem 0;
+//     padding: 5rem 0;
+// }
 .aboutMe {
     display: flex;
 }
@@ -45,3 +50,13 @@
     width: 40%;
     
 }
+//////////////
+.projects {
+    background-color:$lightWhite;
+    padding: 4rem 0;
+} 
+.projects h2 {
+    text-align: center;
+    padding: 2rem 0;
+}
+

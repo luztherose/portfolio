@@ -373,3 +373,50 @@ h1 {
 .computerBackground {
   width: 40%;
 }
+
+.projects {
+  background-color: #ececec;
+  padding: 4rem 0;
+}
+
+.projects h2 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footerText {
+  background-color: #d0d0d0;
+  margin: 5rem 0 0 0;
+  padding: 5rem;
+  text-align: center;
+}
+
+.socialMedia ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.socialMedia ul li {
+  padding: 1rem;
+}
+
+.socialMedia ul li i {
+  font-size: 1.8rem;
+}
+
+.copyWrite {
+  text-align: start;
+  background-color: #ffffff;
+  padding: 3rem;
+  position: relative;
+  bottom: 3rem;
+}
+
+.copyWrite .goUp {
+  text-align: center;
+  font-size: 2rem;
+}
