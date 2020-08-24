@@ -6,19 +6,20 @@ header {
     background-position: center;
     background-attachment: fixed;
 }
-
 .mainNav, 
 .mainNav ul {
     display: flex;
-    
 }
 .mainNav {
     justify-content: space-between;
     padding: 30px;
     background-color:$primaryColor ;
+    text-transform: uppercase;
+    font-family: $robotoFont;
 }
 .mainNav ul li a{
-    padding:20px;
+    padding:1rem;
+    color:#333;
 }
 .headerContent {
     text-align: center;
@@ -26,6 +27,7 @@ header {
 }
 h1 {
     letter-spacing: 2px;
-    line-height: 30px;
-    margin-bottom: 30px;
+    line-height: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 3.7rem;
 }

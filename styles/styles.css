@@ -244,6 +244,8 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.2px;
+  font-family: "EB Garamond", serif;
+  color: #333;
 }
 
 .wrapper {
@@ -299,10 +301,13 @@ header {
           justify-content: space-between;
   padding: 30px;
   background-color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
 }
 
 .mainNav ul li a {
-  padding: 20px;
+  padding: 1rem;
+  color: #333;
 }
 
 .headerContent {
@@ -312,8 +317,14 @@ header {
 
 h1 {
   letter-spacing: 2px;
-  line-height: 30px;
-  margin-bottom: 30px;
+  line-height: 2.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 3.7rem;
+}
+
+h2 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
 }
 
 .goBottom {
@@ -331,6 +342,7 @@ h1 {
 .aboutMeSection h2 {
   text-align: center;
   padding: 2rem;
+  margin-bottom: 2rem;
 }
 
 .aboutMe {
@@ -356,6 +368,7 @@ h1 {
   font-size: 2.5rem;
   margin: 0 0 1rem 0;
   padding: 2.5rem 0  1.5rem  2.5rem;
+  font-weight: lighter;
 }
 
 .aboutMeDescription p {
@@ -370,6 +383,7 @@ h1 {
 }
 
 .aboutMeDescription button {
+  font-family: "Roboto", sans-serif;
   padding: 0.6rem 1rem;
   border: none;
   color: #f7f7f7;

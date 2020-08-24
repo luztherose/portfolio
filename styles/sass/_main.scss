@@ -1,7 +1,10 @@
+h2 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
 .goBottom {
     background-color:$primaryColor;
-    // position: relative;
-    // bottom: 100px;
     padding: 4rem 0;
     text-align: center;
     font-size: 2rem;
@@ -14,6 +17,7 @@
     h2 {
         text-align: center;
         padding: 2rem;
+        margin-bottom:2rem;
     }
 }
 .aboutMe {
@@ -32,6 +36,7 @@
         font-size: 2.5rem;
         margin: 0 0 1rem 0;
         padding: 2.5rem 0  1.5rem  2.5rem;
+        font-weight: lighter;
     }
     p {
         padding: 0px 0px 1rem 2rem;
