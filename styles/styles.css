@@ -335,7 +335,7 @@ h2 {
 }
 
 .aboutMeSection {
-  padding: 4rem 0;
+  padding: 4rem 0 6rem 0;
   background-color: #f6f6f6;
 }
 
@@ -405,8 +405,8 @@ h2 {
 
 .skillsSection {
   text-align: center;
-  margin: 5rem 0;
-  padding: 2.5rem 0;
+  margin: 8rem 0;
+  padding: 6rem 0 6rem 0;
   background-color: #ececec;
 }
 
@@ -444,14 +444,47 @@ h2 {
   color: black;
 }
 
-.firstProject {
+.computerBackground {
+  width: 40%;
+}
+
+.portfolio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
 }
 
-.computerBackground {
-  width: 40%;
+.oneMemoryImgContainer {
+  width: 10.4rem;
+  position: absolute;
+  text-align: center;
+  left: 6.8rem;
+  bottom: 5rem;
+}
+
+.giftShopImgContainer {
+  width: 11.4rem;
+  position: absolute;
+  right: 6.1rem;
+  bottom: 5.5rem;
+}
+
+.matchUpImgContainer {
+  width: 11.6rem;
+  position: absolute;
+  left: 6.4rem;
+  bottom: 4.7rem;
+}
+
+.cocktailCuratorImgContainer {
+  width: 10.3rem;
+  position: absolute;
+  right: 6.9rem;
+  bottom: 3.3rem;
 }
 
 .projects {
@@ -466,7 +499,7 @@ h2 {
 
 .footerText {
   background-color: #d0d0d0;
-  margin: 5rem 0 0 0;
+  margin: 8rem 0 0 0;
   padding: 5rem;
   text-align: center;
 }
