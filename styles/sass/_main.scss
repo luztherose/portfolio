@@ -90,34 +90,14 @@ h2 {
 .portfolio  {
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
-.oneMemoryImgContainer {
-    width: 10.4rem;
-    position: absolute;
-    text-align: center;
-    left: 6.8rem;
-    bottom: 5rem;
+.oneMemoryProject {
+    button {
+        @include buttons;
+    }
 }
-.giftShopImgContainer {
-    width: 11.4rem;
-    position: absolute;
-    right: 6.1rem;
-    bottom: 5.5rem;
-}
-.matchUpImgContainer {
-    width: 11.6rem;
-    position: absolute;
-    left: 6.4rem;
-    bottom: 4.7rem;
-}
-.cocktailCuratorImgContainer {
-    width: 10.3rem;
-    position: absolute;
-    right: 6.9rem;
-    bottom: 3.3rem;
-}
-//////////////
+
+
 .projects {
     background-color:$lightWhite;
     padding: 4rem 0;

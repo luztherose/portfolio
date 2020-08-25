@@ -455,36 +455,25 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: relative;
 }
 
-.oneMemoryImgContainer {
-  width: 10.4rem;
-  position: absolute;
-  text-align: center;
-  left: 6.8rem;
-  bottom: 5rem;
+.oneMemoryProject button {
+  font-family: "Roboto", sans-serif;
+  padding: 0.6rem 1rem;
+  border: none;
+  color: #f7f7f7;
+  background-color: #222222;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-.giftShopImgContainer {
-  width: 11.4rem;
-  position: absolute;
-  right: 6.1rem;
-  bottom: 5.5rem;
-}
-
-.matchUpImgContainer {
-  width: 11.6rem;
-  position: absolute;
-  left: 6.4rem;
-  bottom: 4.7rem;
-}
-
-.cocktailCuratorImgContainer {
-  width: 10.3rem;
-  position: absolute;
-  right: 6.9rem;
-  bottom: 3.3rem;
+.oneMemoryProject button:hover {
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  background-color: #f7f7f7;
+  color: #222222;
 }
 
 .projects {
