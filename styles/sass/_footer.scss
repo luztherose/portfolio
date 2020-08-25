@@ -1,8 +1,25 @@
+footer a {
+    color:#333;
+    cursor: pointer;
+}
+.email a {
+    color: $boderColor;
+    font-weight: bolder;
+    transition: 0.6s;
+    &:hover {
+        font-size: 1.4rem;
+        color: lighten($color:$boderColor, $amount: 8);
+        text-decoration: underline;
+    }
+}
 .footerText{
     background-color:$darkestWhite;
     margin: 8rem 0 0 0;
     padding: 5rem;
     text-align: center;
+}
+.devicon-linkedin-plain {
+    display: inline-block;
 }
 .socialMedia {
     ul {
@@ -11,7 +28,19 @@
         li {
             padding: 1rem;
             i {
-                font-size: 1.5rem;
+                font-size: 1.3rem;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background: $boderColor;
+                color: $primaryColor;
+                padding-top:6px;
+                transition: 0.5s;
+
+                &:hover {
+                    font-size: 1.5rem;
+                    background: lighten($color:$boderColor, $amount: 8);
+                }
             }
         }
     }

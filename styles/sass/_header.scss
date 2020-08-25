@@ -17,9 +17,14 @@ header {
     text-transform: uppercase;
     font-family: $robotoFont;
 }
-.mainNav ul li a{
+.mainNav ul li a {
     padding:1rem;
     color:#333;
+    transition: 0.2s;
+    &:hover {
+        background:$lightestWhite ;
+        text-decoration: underline;
+    }
 }
 .headerContent {
     text-align: center;
