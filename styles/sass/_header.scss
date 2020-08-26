@@ -20,7 +20,7 @@ header {
 .mainNav ul li a {
     padding:1rem;
     color:#333;
-    transition: 0.2s;
+    transition: 0.3s;
     &:hover {
         background:$lightestWhite ;
         text-decoration: underline;
@@ -29,6 +29,18 @@ header {
 .headerContent {
     text-align: center;
     margin-top: 7rem;
+}
+.logo {
+    font-family: $petitFormalFont;
+    text-transform: capitalize;
+    transition: 0.5s;
+    &:hover {
+        font-size: 1.2rem;
+        transform: rotate(-3deg);
+    }
+    a {
+        color:#333;
+    }
 }
 h1 {
     letter-spacing: 2px;

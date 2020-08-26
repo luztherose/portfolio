@@ -308,8 +308,8 @@ header {
 .mainNav ul li a {
   padding: 1rem;
   color: #333;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .mainNav ul li a:hover {
@@ -320,6 +320,23 @@ header {
 .headerContent {
   text-align: center;
   margin-top: 7rem;
+}
+
+.logo {
+  font-family: "Petit Formal Script", cursive;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  font-size: 1.2rem;
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+}
+
+.logo a {
+  color: #333;
 }
 
 h1 {
@@ -344,6 +361,12 @@ h2 {
 
 .goBottom a {
   color: #333;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.goBottom a:hover {
+  color: #fb5858;
 }
 
 .aboutMeSection {
@@ -457,12 +480,26 @@ h2 {
 
 .skillsSection ul li i {
   font-size: 5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.skillsSection ul li i:hover {
+  -webkit-box-shadow: 0 7px 7px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 7px 7px rgba(0, 0, 0, 0.6);
 }
 
 .firebaseIcon {
   width: 5rem;
   -webkit-filter: brightness(0%);
           filter: brightness(0%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.firebaseIcon:hover {
+  -webkit-box-shadow: 0 7px 7px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 7px 7px rgba(0, 0, 0, 0.6);
 }
 
 .devicon-git-plain.colored {
@@ -618,4 +655,13 @@ footer a {
 .copyWrite .goUp {
   text-align: center;
   font-size: 2rem;
+}
+
+.copyWrite .goUp a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.copyWrite .goUp a:hover {
+  color: #fb5858;
 }

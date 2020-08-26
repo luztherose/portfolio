@@ -1,5 +1,5 @@
 footer a {
-    color:#333;
+    color:$textPrimaryColor;
     cursor: pointer;
 }
 .email a {
@@ -54,5 +54,11 @@ footer a {
     .goUp {
         text-align: center;
         font-size: 2rem;
+        a {
+            transition: 0.3s;
+            &:hover {
+                color:$boderColor;
+            }
+        }
     }
 }

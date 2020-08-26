@@ -10,7 +10,11 @@ h2 {
     text-align: center;
     font-size: 2rem;
     a {
-        color:#333;
+        color:$textPrimaryColor;
+        transition: 0.3s;
+        &:hover {
+            color:$boderColor;
+        }
     }
 }
 // /////////////////////////////
@@ -59,7 +63,7 @@ h2 {
         color:$primaryColor;
         transition: 0.5s;
         &:hover {
-            color: #333;
+            color:$textPrimaryColor;
         }
     }
 }
@@ -86,12 +90,20 @@ h2 {
         }
         i {
             font-size: 5rem;
+            transition: 0.5s;
+            &:hover {
+                box-shadow: 0 7px 7px rgba(0, 0, 0, 0.6);
+            }
         }
     }
 }
 .firebaseIcon {
     width:5rem;
     filter: brightness(0%);
+    transition: 0.5s;
+    &:hover {
+        box-shadow: 0 7px 7px rgba(0, 0, 0, 0.6);
+    }
 }
 .devicon-git-plain.colored {
     color:black;
@@ -118,7 +130,7 @@ h2 {
             color:$primaryColor;
             transition: 0.5s;
             &:hover {
-                color:#333;
+                color:$textPrimaryColor;
             }
         }
     }
