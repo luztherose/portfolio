@@ -1,0 +1,31 @@
+@media(max-width:1150px) {
+    header {
+        height: 60vh;
+    }
+    
+    .aboutMeDescription {
+        margin-top: 0rem;
+        right: 0rem;
+        height: 58vh;
+        p {
+            text-align: start;
+            
+        }
+    }
+    .projects h3 {
+        margin-top:0;
+    }
+    .destopDisplayedImg {
+        display: none;
+    }
+    .nonDisplayed {
+        display: block;
+    }
+    .computerBackground {
+        margin-right: 2rem;
+    }
+}
+
+@media(max-width:1112px) {
+   
+}

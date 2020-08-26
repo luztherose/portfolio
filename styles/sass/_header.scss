@@ -1,10 +1,11 @@
 header {
     background-image: url("../assets/joannaKosinska.jpg");
-    height: 90vh;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    position: relative;
 }
 .mainNav, 
 .mainNav ul {
@@ -47,4 +48,21 @@ h1 {
     line-height: 2.5rem;
     margin-bottom: 2.5rem;
     font-size: 3.7rem;
+}
+.goBottom {
+    background-color:$primaryColor;
+    position:absolute;
+    bottom:80px;
+    left: 50%;
+    text-align: center;
+    font-size: 2rem;
+    background: transparent;
+    a {
+        color:$textPrimaryColor;
+        transition: 0.3s;
+        &:hover {
+            font-size: 3rem;
+            color:$boderColor;
+        }
+    }
 }

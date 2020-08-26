@@ -14,8 +14,8 @@ footer a {
 }
 .footerText{
     background-color:$darkestWhite;
-    margin: 8rem 0 0 0;
-    padding: 5rem;
+    // margin: 8rem 0 0 0;
+    padding: 4rem 0;
     text-align: center;
 }
 .devicon-linkedin-plain {
@@ -57,8 +57,12 @@ footer a {
         a {
             transition: 0.3s;
             &:hover {
+                font-size: 3rem;
                 color:$boderColor;
             }
         }
+    }
+    p {
+        font-size: 0.8rem;
     }
 }

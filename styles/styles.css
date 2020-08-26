@@ -281,11 +281,12 @@ img {
 
 header {
   background-image: url("../assets/joannaKosinska.jpg");
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  position: relative;
 }
 
 .mainNav,
@@ -346,17 +347,14 @@ h1 {
   font-size: 3.7rem;
 }
 
-h2 {
-  font-size: 3rem;
-  padding-bottom: 2rem;
-  font-weight: lighter;
-}
-
 .goBottom {
   background-color: #ffffff;
-  padding: 4rem 0;
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
   text-align: center;
   font-size: 2rem;
+  background: transparent;
 }
 
 .goBottom a {
@@ -366,7 +364,18 @@ h2 {
 }
 
 .goBottom a:hover {
+  font-size: 3rem;
   color: #fb5858;
+}
+
+.nonDisplayed {
+  display: none;
+}
+
+h2 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  font-weight: lighter;
 }
 
 .aboutMeSection {
@@ -393,9 +402,6 @@ h2 {
   font-size: 0.9rem;
   position: relative;
   right: 4rem;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
   height: 540px;
 }
 
@@ -407,9 +413,8 @@ h2 {
 }
 
 .aboutMeDescription p {
-  padding: 0px 0px 1rem 2rem;
+  padding: 0px 0px 1rem 2.5rem;
   width: 90%;
-  text-align: end;
 }
 
 .aboutMeDescription span {
@@ -453,8 +458,8 @@ h2 {
   margin: 8rem 0;
   padding: 6rem 0 6rem 0;
   background-color: #ececec;
-  -webkit-box-shadow: 10px 10px #fb5858;
-          box-shadow: 10px 10px #fb5858;
+  -webkit-box-shadow: 25px 25px #fb5858;
+          box-shadow: 25px 25px #fb5858;
 }
 
 .skillsSection ul {
@@ -605,8 +610,7 @@ footer a {
 
 .footerText {
   background-color: #d0d0d0;
-  margin: 8rem 0 0 0;
-  padding: 5rem;
+  padding: 4rem 0;
   text-align: center;
 }
 
@@ -663,5 +667,36 @@ footer a {
 }
 
 .copyWrite .goUp a:hover {
+  font-size: 3rem;
   color: #fb5858;
+}
+
+.copyWrite p {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 1150px) {
+  header {
+    height: 60vh;
+  }
+  .aboutMeDescription {
+    margin-top: 0rem;
+    right: 0rem;
+    height: 58vh;
+  }
+  .aboutMeDescription p {
+    text-align: start;
+  }
+  .projects h3 {
+    margin-top: 0;
+  }
+  .destopDisplayedImg {
+    display: none;
+  }
+  .nonDisplayed {
+    display: block;
+  }
+  .computerBackground {
+    margin-right: 2rem;
+  }
 }

@@ -1,22 +1,13 @@
+.nonDisplayed {
+    display: none;
+}
 h2 {
     font-size: 3rem;
     padding-bottom: 2rem;
     font-weight: lighter;
 }
 
-.goBottom {
-    background-color:$primaryColor;
-    padding: 4rem 0;
-    text-align: center;
-    font-size: 2rem;
-    a {
-        color:$textPrimaryColor;
-        transition: 0.3s;
-        &:hover {
-            color:$boderColor;
-        }
-    }
-}
+
 // /////////////////////////////
 .aboutMeSection {
     padding: 4rem 0 6rem 0;
@@ -37,7 +28,7 @@ h2 {
     font-size: 0.9rem;
     position: relative;
     right: 4rem;
-    width: max-content;
+    //width: max-content;
     height: 540px;
     h4 {
         font-size: 2.5rem;
@@ -46,9 +37,8 @@ h2 {
         font-weight: lighter;
     }
     p {
-        padding: 0px 0px 1rem 2rem;
+        padding: 0px 0px 1rem 2.5rem;
         width: 90%;
-        text-align: end;
     }
 }
 .aboutMeDescription span {
@@ -73,7 +63,7 @@ h2 {
     margin:8rem 0;
     padding: 6rem 0 6rem 0;
     background-color:$lightWhite;
-    box-shadow: 10px 10px $boderColor;
+    box-shadow: 25px 25px $boderColor;
 }
 .skillsSection ul {
     display: flex;

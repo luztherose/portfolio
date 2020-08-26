@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+    <title>Luz De La Rosa</title>
     <link
         href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Josefin+Sans:wght@300&family=Petit+Formal+Script&family=Roboto&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="faviconIo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="faviconIo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="faviconIo/favicon-16x16.png">
+    <link rel="manifest" href="faviconIo/site.webmanifest">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
@@ -33,12 +37,12 @@
                 <p>Making the intenet a better place, one line of <span>code</span> at time.</p>
             </div>
         </div>
+        <div class="goBottom">
+            <a href="#contact"><i class="fas fa-angle-double-down"></i></a>
+        </div>
     </header>
     <main>
         <div>
-            <div class="goBottom">
-                <a href="#contact"><i class="fas fa-angle-double-down"></i></a>
-            </div>
             <section class="aboutMeSection" id="aboutMe">
                 <div class="wrapper">
                     <h2>About Me</h2>
@@ -64,8 +68,8 @@
                     </div>
                 </div>
             </section>
-            <section>
-                <div class="skillsSection wrapper" id="skills">
+            <section class="wrapper">
+                <div class="skillsSection" id="skills">
                     <h2>Skills</h2>
                     <ul>
                         <li><i class="fab fa-html5"></i>
@@ -106,10 +110,11 @@
                     </div>
                     <div class="portfolio oneMemoryProject">
                         <div class="computerBackground">
-                            <img src="assets/oneMemomeryMockup.png" alt="A picture the intro screen of the oneMemory app">
+                            <img src="assets/oneMemoryMockupFinal.png"
+                                alt="A picture the intro screen of the oneMemory app">
                         </div>
                         <div>
-                            <h3>oneMemoryApp</h3>
+                            <h3>One Memory App</h3>
                             <p class="skills">HTML5, CSS3, JavaScript, React, Firebase</p>
                             <p class="appDescription">A site for users to store and share with the world their most
                                 tresured souvenirs.</p>
@@ -120,29 +125,34 @@
                         </div>
                     </div>
                     <div class="portfolio giftShopProject">
+                        <div class="computerBackground nonDisplayed">
+                            <img src="assets/giftShopMockupFinal.png"
+                                alt="A picture the intro screen of the giftShop app">
+                        </div>
+
                         <div>
-                            <h3>giftShop</h3>
-                            <p class="skills">HTML5, CSS3, JavaScript, React, Firebase</p>
+                            <h3>Gift Shop</h3>
+                            <p class="skills">HTML5, CSS3, Sass, JavaScript, jQuery</p>
                             <p class="appDescription">A site for users to store and share with the world their most
                                 tresured souvenirs.</p>
                             <div>
-                                <button><a href="https://luztherose.github.io/luzDeLaRosaProjectThree/">View
-                                        Live</a></button>
-                                <button><a
-                                        href="https://github.com/luztherose/luzDeLaRosaProjectThree">GitHub</a></button>
+                                <button><a href="https://luztherose.github.io/luzDeLaRosaProjectThree/">ViewLive</a>
+                                </button>
+                                <button><a href="https://github.com/luztherose/luzDeLaRosaProjectThree">GitHub</a>
+                                </button>
                             </div>
                         </div>
-                        <div class="computerBackground">
-                            <img src="assets/giftShopMockup.png" alt="A picture the intro screen of the giftShop app">
+                        <div class="computerBackground destopDisplayedImg">
+                            <img src="assets/giftShopMockupFinal.png" alt="A picture the intro screen of the giftShop app">
                         </div>
                     </div>
                     <div class="portfolio matchUpProject">
                         <div class="computerBackground">
-                            <img src="assets/matchUpMarkup.png" alt="A picture the intro screen of the matchUp game">
+                            <img src="assets/matchUpMockupFinal.png" alt="A picture the intro screen of the matchUp game">
                         </div>
                         <div>
-                            <h3>matchUp</h3>
-                            <p class="skills">HTML5, CSS3, JavaScript, React, Firebase</p>
+                            <h3>Match Up</h3>
+                            <p class="skills">HTML5, CSS3, Vanilla JavaScript, jQuery </p>
                             <p class="appDescription">A site for users to store and share with the world their most
                                 tresured souvenirs.</p>
                             <div>
@@ -152,9 +162,13 @@
                         </div>
                     </div>
                     <div class="portfolio">
+                        <div class="computerBackground nonDisplayed">
+                            <img src="assets/cocktailCuratorMockupFinal.png"
+                                alt="A picture the intro screen of the cocktailCurator app">
+                        </div>
                         <div>
-                            <h3>cocktailCurator</h3>
-                            <p class="skills">HTML5, CSS3, JavaScript, React, Firebase</p>
+                            <h3>Cocktail Curator</h3>
+                            <p class="skills">HTML5, CSS3, JavaScript, jQuery, REST API</p>
                             <p class="appDescription">A site for users to store and share with the world their most
                                 tresured souvenirs.</p>
                             <div>
@@ -164,8 +178,9 @@
                                         href="https://github.com/Cocktail-Curators/luzSierraYemisiProjectFour">GitHub</a></button>
                             </div>
                         </div>
-                        <div class="computerBackground">
-                            <img src="assets/cocktailCuratorImgMockup.png" alt="A picture the intro screen of the cocktailCurator app">
+                        <div class="computerBackground destopDisplayedImg">
+                            <img src="assets/cocktailCuratorMockupFinal.png"
+                                alt="A picture the intro screen of the cocktailCurator app">
                         </div>
                     </div>
                 </div>
