@@ -7,10 +7,6 @@
         margin-top: 0rem;
         right: 0rem;
         height: 58vh;
-        p {
-            text-align: start;
-            
-        }
     }
     .projects h3 {
         margin-top:0;
@@ -27,5 +23,29 @@
 }
 
 @media(max-width:1112px) {
-   
+    .aboutMe {
+        display: block;
+        .aboutMeImgContainer {
+            width: 60%;
+            margin: 0 auto;
+        }
+    }
+    .aboutMeDescription {
+        background-color: $lightestWhite;
+        margin-top:2rem;
+        p {
+            width: 80%;
+        }
+        button {
+            position: relative;
+            margin-left: 5rem;
+            margin-top: 1rem;
+        }
+    }
+    .skillsSection ul {
+        width: 75%;
+    }
+}
+@media(max-width:890px) {
+
 }
