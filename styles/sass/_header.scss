@@ -7,6 +7,21 @@ header {
     background-attachment: fixed;
     position: relative;
 }
+.hamburgerMenu {
+    display: none;
+}
+// .display {
+//     display: block;
+// }
+.burgerMenu {
+    flex-direction: column;
+    position: absolute;
+    top:4rem;
+    right: 10px;
+    font-size:0.9rem;
+    background:$darkestWhite;
+}
+
 .mainNav, 
 .mainNav ul {
     display: flex;

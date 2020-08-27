@@ -14,7 +14,6 @@ footer a {
 }
 .footerText{
     background-color:$darkestWhite;
-    // margin: 8rem 0 0 0;
     padding: 4rem 0;
     text-align: center;
 }
@@ -36,7 +35,6 @@ footer a {
                 color: $primaryColor;
                 padding-top:6px;
                 transition: 0.5s;
-
                 &:hover {
                     font-size: 1.5rem;
                     background: lighten($color:$boderColor, $amount: 8);

@@ -2,12 +2,12 @@
 const portfolioApp = {};
 
 // Document Ready
-$(document).ready(function(){
+$(document).ready(function () {
     portfolioApp.init();
 })
 
 // Init
-    portfolioApp.init = () => {
+portfolioApp.init = () => {
     portfolioApp.scrollToBottom();
     portfolioApp.scrollToTop();
     portfolioApp.scrollToTheAboutSection();
@@ -17,35 +17,35 @@ $(document).ready(function(){
 }
 
 // Animation 
-portfolioApp.scroll = function(element, time) {
-	$('html').animate(
-		{
+portfolioApp.scroll = function (element, time) {
+    $('html').animate(
+        {
             scrollTop: $(element).offset().top
-		}, time
-	);
+        }, time
+    );
 };
 
 // move to a sections
 portfolioApp.scrollToTheAboutSection = () => {
-    $('.aboutNav').on('click', function(event){
+    $('.aboutNav').on('click', function (event) {
         event.preventDefault();
         portfolioApp.scroll('#aboutMe', 1500);
     });
 }
 portfolioApp.scrollToTheSkillsSection = () => {
-    $('.skillsNav').on('click', function(event){
+    $('.skillsNav').on('click', function (event) {
         event.preventDefault();
         portfolioApp.scroll('#skills', 1600);
     });
 }
 portfolioApp.scrollToThePortfolioSection = () => {
-    $('.portfolioNav').on('click', function(event){
+    $('.portfolioNav').on('click', function (event) {
         event.preventDefault();
         portfolioApp.scroll('#portfolio', 1700);
     });
 }
 portfolioApp.scrollToTheContactSection = () => {
-    $('.contactNav').on('click', function(event){
+    $('.contactNav').on('click', function (event) {
         event.preventDefault();
         portfolioApp.scroll('#contact', 2000);
     });
@@ -53,16 +53,23 @@ portfolioApp.scrollToTheContactSection = () => {
 
 // scroll to the bottom
 portfolioApp.scrollToBottom = () => {
-    $('.goBottom').on('click', function(event){
+    $('.goBottom').on('click', function (event) {
         event.preventDefault();
         portfolioApp.scroll('#contact', 3000);
     });
 }
 // Back to the Top
 portfolioApp.scrollToTop = () => {
-    $('.goUp').on('click', function(event){
+    $('.goUp').on('click', function (event) {
         event.preventDefault();
         portfolioApp.scroll('#header', 3000);
     });
 }
 
+//Hamburger Menu
+
+$(".hamburgerMenu").on("click tap", function () {
+    $('.mainNav ul').css('display', 'block');
+    $(".dropdown-content").toggleClass("burgerMenu");
+    
+});
