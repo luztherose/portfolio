@@ -695,7 +695,7 @@ footer a {
   .projects h3 {
     margin-top: 0;
   }
-  .destopDisplayedImg {
+  .desktopDisplayedImg {
     display: none;
   }
   .nonDisplayed {
@@ -717,6 +717,7 @@ footer a {
   .aboutMeDescription {
     background-color: #f6f6f6;
     margin-top: 2rem;
+    height: 100vh;
   }
   .aboutMeDescription p {
     width: 80%;
@@ -748,9 +749,6 @@ footer a {
   }
   .skillsSection {
     width: 95%;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    border: 1px solid #fb5858;
   }
   .skillsSection ul li {
     padding: 1rem 1.5rem;
@@ -758,8 +756,26 @@ footer a {
   .skillsSection ul li i {
     font-size: 4.5rem;
   }
+  .firebaseIcon {
+    width: 4.5rem;
+  }
   .aboutMeDescription p {
     width: 100%;
+  }
+  .portfolio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .portfolio .computerBackground {
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  .portfolio .projectInfoContainer {
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
@@ -787,21 +803,6 @@ footer a {
   }
   .mainNav .computerBackground {
     width: 50%;
-  }
-  .portfolio {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .portfolio .computerBackground {
-    width: 55%;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-  }
-  .portfolio .projectInfoContainer {
-    margin: 0 auto;
-    text-align: center;
   }
   .copyWrite p {
     text-align: center;
@@ -846,5 +847,48 @@ footer a {
   }
   .aboutMe .aboutMeImgContainer {
     width: 75%;
+  }
+  .skillsSection ul {
+    width: 100%;
+  }
+  .skillsSection ul li i {
+    font-size: 3rem;
+  }
+  .firebaseIcon {
+    width: 3rem;
+  }
+  .projects .anchorLinks a {
+    display: block;
+    margin: 1rem auto;
+  }
+}
+
+@media (max-width: 430px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  .aboutMeSection {
+    padding-bottom: 10rem;
+  }
+  .aboutMeSection .aboutMeDescription a {
+    margin-top: 0;
+    font-size: 0.6rem;
+  }
+  .skillsSection ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .skillsSection ul li i {
+    font-size: 6rem;
+  }
+  .firebaseIcon {
+    width: 6rem;
+    margin: 0 auto;
   }
 }

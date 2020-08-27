@@ -7,7 +7,7 @@
     .projects h3 {
         margin-top:0;
     }
-    .destopDisplayedImg {
+    .desktopDisplayedImg {
         display: none;
     }
     .nonDisplayed {
@@ -29,6 +29,7 @@
     .aboutMeDescription {
         background-color: $lightestWhite;
         margin-top:2rem;
+        height: 100vh;
         p {
             width: 80%;
         }
@@ -60,8 +61,8 @@
     }
     .skillsSection {
         width: 95%;
-        box-shadow: none;
-        border: 1px solid $boderColor;
+        //box-shadow: none;
+        // border: 1px solid $boderColor;
         ul {
             li {
                 padding: 1rem 1.5rem;
@@ -71,8 +72,23 @@
             }
         }
     }
+    .firebaseIcon {
+        width: 4.5rem;
+    }
     .aboutMeDescription p {
         width:100%;
+    }
+    .portfolio {
+        flex-direction: column;
+        .computerBackground {
+            width: 55%;
+            margin:0 auto;
+            margin-bottom: 1rem;
+        }
+        .projectInfoContainer {
+            margin:0 auto;
+            text-align: center;
+        }
     }
 }
 
@@ -93,18 +109,6 @@
         }
         .computerBackground {
             width: 50%;
-        }
-    }
-    .portfolio {
-        flex-direction: column;
-        .computerBackground {
-            width: 55%;
-            margin:0 auto;
-            margin-bottom: 1rem;
-        }
-        .projectInfoContainer {
-            margin:0 auto;
-            text-align: center;
         }
     }
     .copyWrite p {
@@ -132,7 +136,6 @@
             font-size: 2.3rem;
         }
     }
-    
     .mainNav ul  {
         padding: 10px 15px;
         li {
@@ -152,6 +155,57 @@
         .aboutMeImgContainer {
             width:75%;
         }
+    }
+    .skillsSection {
+        ul {
+            width: 100%;
+            li {
+                i {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+    .firebaseIcon {
+        width: 3rem;
+    }
+    .projects {
+        .anchorLinks  {
+            a {
+                display: block;
+                margin: 1rem auto;
+            }
+        }
+    }
+}
+@media(max-width:430px)  {
+    h1 {
+        font-size:2rem ;
+    }
+    h2 {
+        font-size:1.8rem ;
+    }
+    .aboutMeSection {
+        padding-bottom: 10rem;
+        .aboutMeDescription a {
+            margin-top: 0;
+            font-size: 0.6rem;
+        }
+    }
+    .skillsSection {
+        ul {
+            flex-direction: column;
+            width: 100%;
+            li {
+                i {
+                    font-size: 6rem;
+                }
+            }
+        }
+    }
+    .firebaseIcon {
+        width: 6rem;
+        margin: 0 auto;
     }
     
 }
