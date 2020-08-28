@@ -14,6 +14,7 @@ portfolioApp.init = () => {
     portfolioApp.scrollToTheSkillsSection();
     portfolioApp.scrollToThePortfolioSection();
     portfolioApp.scrollToTheContactSection();
+    portfolioApp.setHamburgerMenu();
 }
 
 // Animation 
@@ -58,6 +59,7 @@ portfolioApp.scrollToBottom = () => {
         portfolioApp.scroll('#contact', 3000);
     });
 }
+
 // Back to the Top
 portfolioApp.scrollToTop = () => {
     $('.goUp').on('click', function (event) {
@@ -67,7 +69,10 @@ portfolioApp.scrollToTop = () => {
 }
 
 //Hamburger Menu
-$(".hamburgerMenu").on("click tap", function () {
-    $(".dropdown-content").toggleClass("burgerMenu");
-});
+portfolioApp.setHamburgerMenu = () => { 
+    $(".hamburgerMenu").on("click tap", function () {
+        $(".dropdown-content").toggleClass("burgerMenu");
+    });
+}
+
 
