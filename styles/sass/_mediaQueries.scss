@@ -189,8 +189,10 @@
     .aboutMeSection {
         padding-bottom: 10rem;
         .aboutMeDescription a {
-            margin-top: 0;
-            font-size: 0.6rem;
+            width: 78%;
+            margin-top: 1rem;
+            margin-left:4rem;
+            text-align: center;
         }
     }
     .skillsSection {
