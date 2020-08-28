@@ -67,9 +67,7 @@ portfolioApp.scrollToTop = () => {
 }
 
 //Hamburger Menu
-
 $(".hamburgerMenu").on("click tap", function () {
-    $('.mainNav ul').css('display', 'block');
     $(".dropdown-content").toggleClass("burgerMenu");
-    
 });
+

@@ -10,10 +10,9 @@ header {
 .hamburgerMenu {
     display: none;
 }
-// .display {
-//     display: block;
-// }
+
 .burgerMenu {
+    display: block !important;;
     flex-direction: column;
     position: absolute;
     top:4rem;
