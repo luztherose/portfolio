@@ -1,3 +1,6 @@
+.contact h2 {
+    color: $primaryColor;
+}
 footer a {
     color:$textPrimaryColor;
     cursor: pointer;
@@ -13,7 +16,7 @@ footer a {
     }
 }
 .footerText{
-    background-color:$darkestWhite;
+    background-color:$textPrimaryColor;
     padding: 4rem 0;
     text-align: center;
 }

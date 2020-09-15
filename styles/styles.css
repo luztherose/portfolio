@@ -602,6 +602,10 @@ h2 {
   margin: 3rem 0;
 }
 
+.contact h2 {
+  color: #ffffff;
+}
+
 footer a {
   color: #333;
   cursor: pointer;
@@ -621,7 +625,7 @@ footer a {
 }
 
 .footerText {
-  background-color: #d0d0d0;
+  background-color: #333;
   padding: 4rem 0;
   text-align: center;
 }
