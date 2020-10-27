@@ -31,6 +31,11 @@ header {
     background-color:$primaryColor ;
     text-transform: uppercase;
     font-family: $robotoFont;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.15);
+    top: 0;
 }
 .mainNav ul li a {
     padding:1rem;
@@ -43,7 +48,8 @@ header {
 }
 .headerContent {
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 91px;
+    padding-top: 7rem;
 }
 .logo {
     font-family: $petitFormalFont;
@@ -66,7 +72,7 @@ h1 {
 .goBottom {
     background-color:$primaryColor;
     position:absolute;
-    bottom:80px;
+    bottom:110px;
     left: 50%;
     text-align: center;
     font-size: 2rem;

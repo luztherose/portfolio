@@ -321,6 +321,12 @@ header {
   background-color: #ffffff;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  top: 0;
 }
 
 .mainNav ul li a {
@@ -337,7 +343,8 @@ header {
 
 .headerContent {
   text-align: center;
-  margin-top: 7rem;
+  margin-top: 91px;
+  padding-top: 7rem;
 }
 
 .logo {
@@ -367,7 +374,7 @@ h1 {
 .goBottom {
   background-color: #ffffff;
   position: absolute;
-  bottom: 80px;
+  bottom: 110px;
   left: 50%;
   text-align: center;
   font-size: 2rem;
@@ -509,8 +516,8 @@ h2 {
 
 .firebaseIcon {
   width: 5rem;
-  -webkit-filter: brightness(0%);
-          filter: brightness(0%);
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -824,6 +831,7 @@ footer a {
             flex-direction: row;
     background: transparent;
     padding-bottom: 0;
+    position: static;
   }
   .mainNav ul {
     display: none;
