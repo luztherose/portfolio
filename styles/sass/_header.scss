@@ -51,6 +51,7 @@ header {
     margin-top: 91px;
     padding-top: 7rem;
 }
+
 .logo {
     font-family: $petitFormalFont;
     text-transform: capitalize;
@@ -62,7 +63,13 @@ header {
     a {
         color:#333;
     }
+    .selfClosingTagLogo {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
 }
+
+
 h1 {
     letter-spacing: 2px;
     line-height: 2.5rem;
