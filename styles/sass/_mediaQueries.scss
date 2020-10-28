@@ -31,7 +31,7 @@
     .aboutMeDescription {
         background-color: $lightestWhite;
         margin-top:2rem;
-        height: 100vh;
+        height: auto;
         p {
             width: 80%;
         }
@@ -141,9 +141,10 @@
         }
     }
     .headerContent {
-        margin-top: 4rem;
+        padding-top: 3rem;
         h1 {
             font-size: 2.3rem;
+            margin-bottom: 1.9rem;
         }
     }
     .mainNav ul  {

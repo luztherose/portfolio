@@ -344,7 +344,7 @@ header {
 .headerContent {
   text-align: center;
   margin-top: 91px;
-  padding-top: 7rem;
+  padding-top: 10rem;
 }
 
 .logo {
@@ -379,7 +379,7 @@ h1 {
 .goBottom {
   background-color: #ffffff;
   position: absolute;
-  bottom: 110px;
+  bottom: 120px;
   left: 50%;
   text-align: center;
   font-size: 2rem;
@@ -610,7 +610,8 @@ h2 {
 }
 
 .giftShopProject,
-.matchUpProject {
+.matchUpProject,
+.trivialGame {
   margin: 3rem 0;
 }
 
@@ -734,7 +735,7 @@ footer a {
   .aboutMeDescription {
     background-color: #f6f6f6;
     margin-top: 2rem;
-    height: 100vh;
+    height: auto;
   }
   .aboutMeDescription p {
     width: 80%;
@@ -846,10 +847,11 @@ footer a {
     font-size: 0.9rem;
   }
   .headerContent {
-    margin-top: 4rem;
+    padding-top: 3rem;
   }
   .headerContent h1 {
     font-size: 2.3rem;
+    margin-bottom: 1.9rem;
   }
   .mainNav ul {
     padding: 10px 15px;
