@@ -6,6 +6,8 @@ header {
     background-position: center;
     background-attachment: fixed;
     position: relative;
+    background-color:$boderColor;
+    background-blend-mode: lighten;
 }
 .hamburgerMenu {
     display: none;

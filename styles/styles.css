@@ -287,6 +287,8 @@ header {
   background-position: center;
   background-attachment: fixed;
   position: relative;
+  background-color: #fb5858;
+  background-blend-mode: lighten;
 }
 
 .hamburgerMenu {
